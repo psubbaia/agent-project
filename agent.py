@@ -1,42 +1,17 @@
-from memory import load_state, save_state
-from tools import list_tasks, complete_task
+from mcp.client import use_tool
 
 
-def get_next_action():
+def get_next_task():
+    return use_tool("get_next_task")
+
+
+def get_knowledge_for_goal():
+    from memory import load_state
+
     state = load_state()
-    plan = state.get("current_plan", [])
+    goal = state.get("current_goal", "")
 
-    tasks = list_tasks()
+    if not goal:
+        return []
 
-    pending_tasks = [task for task in tasks if task["status"] != "done"]
-
-    if not state.get("current_goal"):
-        return "No goal found. Please enter a goal first."
-
-    if not pending_tasks:
-        return "All tasks are complete."
-
-    next_task = pending_tasks[0]
-    return f"Next task: {next_task['title']}"
-
-
-def mark_next_task_done():
-    tasks = list_tasks()
-
-    for task in tasks:
-        if task["status"] != "done":
-            complete_task(task["id"])
-            return f"Completed task: {task['title']}"
-
-    return "No pending tasks found."
-
-
-def run_agent():
-    state = load_state()
-
-    if not state.get("current_goal"):
-        goal = input("Enter your goal: ")
-        state["current_goal"] = goal
-        save_state(state)
-
-    print(get_next_action())
+    return use_tool("search_documents", goal)

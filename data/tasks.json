@@ -1,132 +1,30 @@
 [
   {
     "id": 1,
-    "title": "Sample Task",
-    "status": "done",
+    "title": "Understand Learn Kubernetes",
+    "status": "pending",
     "priority": "medium"
   },
   {
     "id": 2,
-    "title": "Research company",
-    "status": "done",
+    "title": "Research Learn Kubernetes",
+    "status": "pending",
     "priority": "medium"
   },
   {
     "id": 3,
-    "title": "Review resume",
+    "title": "Create action items for Learn Kubernetes",
     "status": "pending",
     "priority": "medium"
   },
   {
     "id": 4,
-    "title": "Research company",
+    "title": "Execute tasks for Learn Kubernetes",
     "status": "pending",
     "priority": "medium"
   },
   {
     "id": 5,
-    "title": "Review resume",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 6,
-    "title": "Practice interview questions",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 7,
-    "title": "Research company",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 8,
-    "title": "Review resume",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 9,
-    "title": "Practice interview questions",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 10,
-    "title": "Research company",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 11,
-    "title": "Review resume",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 12,
-    "title": "Practice interview questions",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 13,
-    "title": "Understand Learn Kubernetes",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 14,
-    "title": "Research Learn Kubernetes",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 15,
-    "title": "Create action items for Learn Kubernetes",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 16,
-    "title": "Execute tasks for Learn Kubernetes",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 17,
-    "title": "Review progress",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 18,
-    "title": "Understand Learn Kubernetes",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 19,
-    "title": "Research Learn Kubernetes",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 20,
-    "title": "Create action items for Learn Kubernetes",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 21,
-    "title": "Execute tasks for Learn Kubernetes",
-    "status": "pending",
-    "priority": "medium"
-  },
-  {
-    "id": 22,
     "title": "Review progress",
     "status": "pending",
     "priority": "medium"

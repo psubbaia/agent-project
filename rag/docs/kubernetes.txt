@@ -1,0 +1,12 @@
+Kubernetes is a container orchestration platform.
+
+Important topics:
+- Pods
+- Deployments
+- Services
+- ConfigMaps
+- Secrets
+- Volumes
+- Ingress
+
+Start learning by understanding Pods and Deployments first.

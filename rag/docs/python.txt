@@ -1,0 +1,7 @@
+Python basics include:
+- variables
+- loops
+- functions
+- lists
+- dictionaries
+- file handling

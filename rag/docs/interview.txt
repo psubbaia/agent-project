@@ -1,0 +1,7 @@
+For interviews, focus on:
+- company research
+- resume review
+- system design
+- common questions
+- mock interviews
+- behavioral questions
