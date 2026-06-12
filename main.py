@@ -1,22 +1,27 @@
-from tools import add_task, list_tasks, complete_task
+from planner import create_plan
+from tools import add_task, list_tasks
 
 
 def main():
-    print("Testing task manager...")
 
-    add_task("Research company")
-    add_task("Review resume")
-    add_task("Practice interview questions")
+    goal = input("Enter your goal: ")
 
-    print("Current tasks:")
+    plan = create_plan(goal)
+
+    print("\nGenerated Plan:")
+
+    for step in plan:
+        print("-", step)
+        add_task(step)
+
+    print("\nTasks saved:\n")
+
     for task in list_tasks():
-        print(task)
-
-    complete_task(1)
-
-    print("\nAfter completing task 1:")
-    for task in list_tasks():
-        print(task)
+        print(
+            f"[{task['id']}] "
+            f"{task['title']} "
+            f"({task['status']})"
+        )
 
 
 if __name__ == "__main__":
