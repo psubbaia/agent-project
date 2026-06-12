@@ -100,5 +100,35 @@
     "title": "Review progress",
     "status": "pending",
     "priority": "medium"
+  },
+  {
+    "id": 18,
+    "title": "Understand Learn Kubernetes",
+    "status": "pending",
+    "priority": "medium"
+  },
+  {
+    "id": 19,
+    "title": "Research Learn Kubernetes",
+    "status": "pending",
+    "priority": "medium"
+  },
+  {
+    "id": 20,
+    "title": "Create action items for Learn Kubernetes",
+    "status": "pending",
+    "priority": "medium"
+  },
+  {
+    "id": 21,
+    "title": "Execute tasks for Learn Kubernetes",
+    "status": "pending",
+    "priority": "medium"
+  },
+  {
+    "id": 22,
+    "title": "Review progress",
+    "status": "pending",
+    "priority": "medium"
   }
 ]
