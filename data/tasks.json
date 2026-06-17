@@ -1,31 +1,31 @@
 [
   {
     "id": 1,
-    "title": "Understand Learn Kubernetes",
+    "title": "Assess the interview scope: identify the Java topics, level, and format you need to prepare for.",
     "status": "pending",
     "priority": "medium"
   },
   {
     "id": 2,
-    "title": "Research Learn Kubernetes",
+    "title": "Review core Java fundamentals, including OOP, collections, exceptions, generics, multithreading, and JVM basics.",
     "status": "pending",
     "priority": "medium"
   },
   {
     "id": 3,
-    "title": "Create action items for Learn Kubernetes",
+    "title": "Practice common interview questions and coding problems in Java, focusing on problem-solving and clean code.",
     "status": "pending",
     "priority": "medium"
   },
   {
     "id": 4,
-    "title": "Execute tasks for Learn Kubernetes",
+    "title": "Build or revisit a few small Java projects or exercises to demonstrate practical understanding.",
     "status": "pending",
     "priority": "medium"
   },
   {
     "id": 5,
-    "title": "Review progress",
+    "title": "Do mock interviews and a final review of weak areas, important APIs, and common pitfalls.",
     "status": "pending",
     "priority": "medium"
   }

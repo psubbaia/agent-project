@@ -1,11 +1,11 @@
 {
-  "current_goal": "Learn Kubernetes",
+  "current_goal": "Prepare for a Java interview",
   "current_plan": [
-    "Understand Learn Kubernetes",
-    "Research Learn Kubernetes",
-    "Create action items for Learn Kubernetes",
-    "Execute tasks for Learn Kubernetes",
-    "Review progress"
+    "Assess the interview scope: identify the Java topics, level, and format you need to prepare for.",
+    "Review core Java fundamentals, including OOP, collections, exceptions, generics, multithreading, and JVM basics.",
+    "Practice common interview questions and coding problems in Java, focusing on problem-solving and clean code.",
+    "Build or revisit a few small Java projects or exercises to demonstrate practical understanding.",
+    "Do mock interviews and a final review of weak areas, important APIs, and common pitfalls."
   ],
   "completed_tasks": []
 }
