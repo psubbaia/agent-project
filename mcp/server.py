@@ -1,12 +1,11 @@
-from tools import list_tasks
+from tools import list_tasks, get_next_task
 from rag.retrieve import search_documents
-from agent import get_next_task
 
 
 TOOLS = {
     "list_tasks": list_tasks,
     "search_documents": search_documents,
-    "get_next_task": get_next_task
+    "get_next_task": get_next_task,
 }
 
 

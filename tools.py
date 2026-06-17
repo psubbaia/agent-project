@@ -49,3 +49,11 @@ def complete_task(task_id):
             save_tasks(tasks)
             return task
     return None
+
+
+def get_next_task():
+    tasks = list_tasks()
+    for task in tasks:
+        if task["status"] != "done":
+            return task
+    return None
